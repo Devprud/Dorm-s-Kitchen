@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #f5f5dc;
+    overflow-x: hidden;
+    margin: 0px;
+    text-align: center;
+}
+header{
+    display: grid;
+    grid-template-columns: 200px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+navbar{
+    background-color: #dc143c;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='18' viewBox='0 0 100 18'%3E%3Cpath fill='%23ffd700' fill-opacity='0.13' d='M61.82 18c3.47-1.45 6.86-3.78 11.3-7.34C78 6.76 80.34 5.1 83.87 3.42 88.56 1.16 93.75 0 100 0v6.16C98.76 6.05 97.43 6 96 6c-9.59 0-14.23 2.23-23.13 9.34-1.28 1.03-2.39 1.9-3.4 2.66h-7.65zm-23.64 0H22.52c-1-.76-2.1-1.63-3.4-2.66C11.57 9.3 7.08 6.78 0 6.16V0c6.25 0 11.44 1.16 16.14 3.42 3.53 1.7 5.87 3.35 10.73 7.24 4.45 3.56 7.84 5.9 11.31 7.34zM61.82 0h7.66a39.57 39.57 0 0 1-7.34 4.58C57.44 6.84 52.25 8 46 8S34.56 6.84 29.86 4.58A39.57 39.57 0 0 1 22.52 0h15.66C41.65 1.44 45.21 2 50 2c4.8 0 8.35-.56 11.82-2z'%3E%3C/path%3E%3C/svg%3E");
+    padding: 15px;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+}
+nav{
+    align-items: center;
+    margin-top: 10px;
+}
+nav a{
+    margin: 5px 45px 45px 15px;
+    color: #ffd700;
+    font-family: "Englebert", cursive;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 15px;
+    transition: 900ms;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    padding: +3px;
+    
+}
+main{
+    margin: 0px 1cm 0px 1cm;
+}
+.intro{
+    margin: auto;
+    padding: 15px;
+    display: grid;
+    color:#ffd700;
+    grid-template-columns: auto auto;
+    background-color: #dc143c;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffd700' fill-opacity='0.21' fill-rule='nonzero'%3E%3Cpath d='M29 58.58l7.38-7.39A30.95 30.95 0 0 1 29 37.84a30.95 30.95 0 0 1-7.38 13.36l7.37 7.38zm1.4 1.41l.01.01h-2.84l-7.37-7.38A30.95 30.95 0 0 1 6.84 60H0v-1.02a28.9 28.9 0 0 0 18.79-7.78L0 32.41v-4.84L18.78 8.79A28.9 28.9 0 0 0 0 1.02V0h6.84a30.95 30.95 0 0 1 13.35 7.38L27.57 0h2.84l7.39 7.38A30.95 30.95 0 0 1 51.16 0H60v27.58-.01V60h-8.84a30.95 30.95 0 0 1-13.37-7.4L30.4 60zM29 1.41l-7.4 7.38A30.95 30.95 0 0 1 29 22.16 30.95 30.95 0 0 1 36.38 8.8L29 1.4zM58 1A28.9 28.9 0 0 0 39.2 8.8L58 27.58V1.02zm-20.2 9.2A28.9 28.9 0 0 0 30.02 29h26.56L37.8 10.21zM30.02 31a28.9 28.9 0 0 0 7.77 18.79l18.79-18.79H30.02zm9.18 20.2A28.9 28.9 0 0 0 58 59V32.4L39.2 51.19zm-19-1.4a28.9 28.9 0 0 0 7.78-18.8H1.41l18.8 18.8zm7.78-20.8A28.9 28.9 0 0 0 20.2 10.2L1.41 29h26.57z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+border-radius: 10px;
+
+}
+.intro_text{
+border-radius: 10px;
+text-align: left;
+padding: 20px;
+color:#ffd700;
+font-family: "Montserrat", sans-serif;
+height: max-content;    
+margin-right: 20px;
+}
+
+.intro_img img{
+    border-radius: 10px;
+    height: 250px;
+    border: 2px solid #ffd700
+}
+button{
+    background-color: #ffd700;
+    color:#dc143c;
+    border: none;
+    font-family: "Englebert", cursive;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 15px;
+    border: 2px solid #ffd700;
+    transition: 200ms;
+}
+button:hover{
+    background-color: #dc143c;
+    border: 2px solid #ffd700;
+    color:#ffd700;
+    padding: 14px;
+    font-size: 19px;
+    margin:2px;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+}
+h2 span{
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+}
+strong{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.locations{
+    margin: auto;
+    padding: 15px;
+    display: grid;
+    color:#ffd700;
+    grid-template-columns: 60% 40%;
+    background-color: #dc143c;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffd700' fill-opacity='0.21' fill-rule='nonzero'%3E%3Cpath d='M29 58.58l7.38-7.39A30.95 30.95 0 0 1 29 37.84a30.95 30.95 0 0 1-7.38 13.36l7.37 7.38zm1.4 1.41l.01.01h-2.84l-7.37-7.38A30.95 30.95 0 0 1 6.84 60H0v-1.02a28.9 28.9 0 0 0 18.79-7.78L0 32.41v-4.84L18.78 8.79A28.9 28.9 0 0 0 0 1.02V0h6.84a30.95 30.95 0 0 1 13.35 7.38L27.57 0h2.84l7.39 7.38A30.95 30.95 0 0 1 51.16 0H60v27.58-.01V60h-8.84a30.95 30.95 0 0 1-13.37-7.4L30.4 60zM29 1.41l-7.4 7.38A30.95 30.95 0 0 1 29 22.16 30.95 30.95 0 0 1 36.38 8.8L29 1.4zM58 1A28.9 28.9 0 0 0 39.2 8.8L58 27.58V1.02zm-20.2 9.2A28.9 28.9 0 0 0 30.02 29h26.56L37.8 10.21zM30.02 31a28.9 28.9 0 0 0 7.77 18.79l18.79-18.79H30.02zm9.18 20.2A28.9 28.9 0 0 0 58 59V32.4L39.2 51.19zm-19-1.4a28.9 28.9 0 0 0 7.78-18.8H1.41l18.8 18.8zm7.78-20.8A28.9 28.9 0 0 0 20.2 10.2L1.41 29h26.57z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    border-radius: 10px;
+}
+.location_add{
+    height: 350px;
+    overflow-y: auto;
+}
+.map{
+    margin-right: 10px;
+}
+.map iframe{
+    border-radius: 10px;
+}
+.map_txt{
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+}
+.addr{
+    text-align: left;
+    background-color: #00000096;
+    color:#fff;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left:10px;
+    border: 3px solid #00000096;
+    transition: 200ms;
+}
+
+.addr h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.selected h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.addr p{
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: "Englebert", cursive;
+}
+.selected p{
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: "Englebert", cursive;
+}
+.selected{
+    border: 3px solid #ffd700;
+    text-align: left;
+    background-color: #dc143c;
+    color:#ffd700;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left:10px;
+}
+.addr:hover{
+    border: 3px solid #ffd700;
+    text-align: left;
+    background-color: #dc143c;
+    color:#ffd700;
+}
+.tdysfav{
+    background-color: #dc143c;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffd700' fill-opacity='0.21' fill-rule='nonzero'%3E%3Cpath d='M29 58.58l7.38-7.39A30.95 30.95 0 0 1 29 37.84a30.95 30.95 0 0 1-7.38 13.36l7.37 7.38zm1.4 1.41l.01.01h-2.84l-7.37-7.38A30.95 30.95 0 0 1 6.84 60H0v-1.02a28.9 28.9 0 0 0 18.79-7.78L0 32.41v-4.84L18.78 8.79A28.9 28.9 0 0 0 0 1.02V0h6.84a30.95 30.95 0 0 1 13.35 7.38L27.57 0h2.84l7.39 7.38A30.95 30.95 0 0 1 51.16 0H60v27.58-.01V60h-8.84a30.95 30.95 0 0 1-13.37-7.4L30.4 60zM29 1.41l-7.4 7.38A30.95 30.95 0 0 1 29 22.16 30.95 30.95 0 0 1 36.38 8.8L29 1.4zM58 1A28.9 28.9 0 0 0 39.2 8.8L58 27.58V1.02zm-20.2 9.2A28.9 28.9 0 0 0 30.02 29h26.56L37.8 10.21zM30.02 31a28.9 28.9 0 0 0 7.77 18.79l18.79-18.79H30.02zm9.18 20.2A28.9 28.9 0 0 0 58 59V32.4L39.2 51.19zm-19-1.4a28.9 28.9 0 0 0 7.78-18.8H1.41l18.8 18.8zm7.78-20.8A28.9 28.9 0 0 0 20.2 10.2L1.41 29h26.57z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    margin-top: 25px;
+    padding: 5px 45px 5px 45px;
+    border-radius: 10px;
+    text-align: center;
+}
+.tdysfav h3{
+    font-family: "Dancing Script", cursive;
+    color:#ffd700; 
+    font-size: 35px;
+}
+
+.tdysfav span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#ffd700;
+}
+.gridcontainer{
+    margin: auto;
+    width: 1000px;
+    padding-bottom: 20px;
+}
+.tdysfav_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+}
+.fav_item{
+    background-color: #00000055;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 2px 5px 2px 5px;
+    border: 2px solid #000;
+    transition: 900ms;
+}
+.tdysfav_grid a{
+    text-decoration: none;
+}
+.fav_item:hover{
+    background-color: #dc143c;
+    border: 2px solid #ffd700;
+    width:215px;
+}
+.fav_item .item_description{
+    background-color: #dc143c7b;
+    padding: 5px;
+    color:#ffd700;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 200px
+}
+.fav_item img{
+    border-radius: 5px;
+    width: 200px;
+    border: 2px solid #fff;
+}
+.fav_item .item_description h4{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+}
+.fav_item .item_description p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color:#fff;
+    padding: 8px;
+}
+
